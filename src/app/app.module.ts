@@ -28,7 +28,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ShoppingListComponent], // since we nee to use this service in the recipeserice
   bootstrap: [AppComponent]
 })
 export class AppModule { }
